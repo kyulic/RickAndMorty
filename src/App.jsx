@@ -58,7 +58,7 @@ useEffect(()=>{
         </>
         )
       }
-      <a href="">Repositorio</a>
+      <dir className='repositorio'>Karla Yulieth Caquimbo U: <a className='link_repositorio'  href="https://github.com/kyulic/RickAndMorty">Repositorio</a></dir>
     </div>
     
   )
