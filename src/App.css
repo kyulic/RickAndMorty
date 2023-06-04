@@ -10,4 +10,53 @@
 .title_h1{
     text-align: center;
 }
+.error_init{
+    text-align: center;
+    align-items: center;
+}
+.img_error{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    
+    
+    
+    
+    
+}
+.img_2{
+    display: block;
+    width: 5%;
+    height: 5%;
+    overflow:hidden;
+    transition: 0.8s;
+    position: relative;
+    left: 5em;
+    top: 2em;
+    
+}
 
+.img_2:hover{
+
+    -webkit-transform:scale(0.5);transform:scale(5);
+}
+
+
+.img_1{
+    /* filter: contrast(50%); */
+    display: block;
+    width: 40%;
+    position: relative;
+    left: 25em;
+    top: 2em;
+
+}
+@media(max-width:800px){
+    .img_1{
+        
+        left: 0;
+        width: 100%;
+    
+    }
+    
+}

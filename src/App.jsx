@@ -32,7 +32,15 @@ useEffect(()=>{
       <FormSearch setIdLocation={setIdLocation}/>
       {
         hasError
-        ? <h2>✖️💥Hey! you must provide an id from 1 to 126 </h2>
+        ? <div className='error_init'>
+          <h2 className='error'>💥Hey! you must provide an id from 1 to 126 </h2>
+          <div className='img_error'>
+            <img  className='img_1' src="../img2.png" alt="Rick and Morty" />
+            <img className='img_2' src="../error.png" alt="error" />
+          </div>
+          
+          
+          </div> 
         :(
           <>
           <LocationInfo
